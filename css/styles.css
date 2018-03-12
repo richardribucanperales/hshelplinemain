@@ -13,6 +13,12 @@ body{
   background-size: cover;
   position: relative;
 }
+.sticky{
+  position:sticky;
+  overflow:visible;
+  top:0px;
+  z-index: 2;
+}
 #topbar{
   width:auto;
   height:75px;
