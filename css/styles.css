@@ -70,11 +70,13 @@ body{
   color:white;
   font-size:50px;
   margin-bottom:inherit;
+  margin-left:10px;
 }
 #story-text{
   color:white;
   font-size:25px;
   margin-bottom:5px;
+  margin-left:5px;
 }
 #slideshow{
   height:800px;
@@ -135,4 +137,29 @@ body{
   float:left;
   padding-left:20px;
   padding-right:20px;
+}
+#footer{
+  width:auto;
+  height:40px;
+  background-color:hsl(240, 100%, 25%);
+}
+.footert{
+  position:relative;
+  display:table-cell;
+  color:white;
+}
+#disc{
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+#priv{
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+#tm{
+  float:right;
+  margin-right:10px;
+  margin-bottom:10px;
 }
