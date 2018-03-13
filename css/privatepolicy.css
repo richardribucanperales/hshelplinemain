@@ -70,10 +70,14 @@ body{
   margin-left:5px;
   font-size:20px;
 }
+#container{
+  height:100%;
+}
 #footer{
   width:auto;
   height:40px;
   background-color:hsl(240, 100%, 25%);
+  position:relative;
 }
 .footert{
   color:white;
