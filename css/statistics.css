@@ -1,8 +1,9 @@
 body{
-  background-color:white;
+  background-color: white;
   font-family: 'Poiret One', cursive;
   margin-left:0px;
   margin-right:0px;
+  margin-bottom:0px;
 }
 #topbar{
   width:auto;
@@ -49,4 +50,99 @@ body{
   font-size:25px;
   text-align:center;
   background-color:hsl(240, 100%, 25%);
+}
+#graphcontainer{
+  margin: auto;
+  padding: 10px;
+  width: 100%
+  height: 100%;
+  background-color: white;
+}
+#graphheader{
+  text-align: center;
+}
+#five{
+  height:50px;
+  margin-top:75px;
+  width: 90%;
+  position: relative;
+  left: 100px;
+  background-color: red;
+}
+#seven{
+  height:50px;
+  margin-top:75px;
+  width: 80%;
+  position: relative;
+  left: 100px;
+  background-color: red;
+}
+#nine{
+  height:50px;
+  margin-top:75px;
+  width: 88%;
+  position: relative;
+  left: 100px;
+  background-color: red;
+}
+#eleven{
+  height:50px;
+  margin-top:75px;
+  width: 60%;
+  position: relative;
+  left: 100px;
+  background-color: red;
+}
+#thirteen{
+  height:50px;
+  margin-top:75px;
+  width: 75%;
+  position: relative;
+  left: 100px;
+  background-color: red;
+}
+#fifteen{
+  height:50px;
+  margin-top:75px;
+  width: 70%;
+  position: relative;
+  left: 100px;
+  background-color: red;
+}
+.yeartag{
+  position: relative;
+  right: 80px;
+  top: 10px;
+}
+.percentage{
+  position: relative;
+  bottom: 38px;
+  text-align: right;
+}
+#footer{
+  width:auto;
+  height:40px;
+  background-color:hsl(240, 100%, 25%);
+}
+.footert{
+  color:white;
+}
+#disc{
+  position:relative;
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+#priv{
+  position:relative;
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+#tm{
+  position:relative;
+  float:right;
+  margin-right:10px;
+  margin-bottom:0px;
+  margin-top:10px;
 }
