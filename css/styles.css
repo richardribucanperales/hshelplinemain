@@ -172,3 +172,21 @@ body{
   margin-bottom:0px;
   margin-top:10px;
 }
+#undercon{
+  background-color:red;
+  width:auto;
+  height:50px;
+}
+#undercon-text{
+  font-size:45px;
+  color:white;
+  text-align:center;
+}
+/*#undercon-button{
+  position:relative;
+  float:right;
+  height:20px;
+  width:20px;
+  background-color:red;
+  border-width:0px;
+}*/
