@@ -3,6 +3,7 @@ body{
   font-family: 'Poiret One', cursive;
   margin-left:0px;
   margin-right:0px;
+  margin-bottom:0px;
 }
 #topbar{
   width:auto;
@@ -49,4 +50,67 @@ body{
   font-size:25px;
   text-align:center;
   background-color:hsl(240, 100%, 25%);
+}
+
+.tm-bg-white2 {
+    padding: 20px;
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+    margin: 0px;
+}
+
+h2 {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  color: green;
+  padding-bottom: 10px;
+}
+
+.MainTopic {
+  margin: 5px;
+  padding: 40px;
+  background-color: #ffffffc4;
+  max-width: 340px;
+  width: 100%;
+  margin: 20px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+}
+#footer{
+  width:auto;
+  height:40px;
+  background-color:hsl(240, 100%, 25%);
+}
+.footert{
+  color:white;
+}
+#disc{
+  position:relative;
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+#priv{
+  position:relative;
+  float:left;
+  padding-left:20px;
+  padding-top:10px;
+}
+#tm{
+  position:relative;
+  float:right;
+  margin-right:10px;
+  margin-bottom:0px;
+  margin-top:10px;
 }
