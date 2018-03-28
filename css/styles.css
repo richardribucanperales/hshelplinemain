@@ -4,26 +4,31 @@ body{
   margin-left:0px;
   margin-right:0px;
   margin-bottom:0px;
+  margin-top:0px;
 }
 #hero{
   height:700px;
   background-image:url("../img/hero1.jpg");
+  background-attachment:fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  top:0px;
 }
 .sticky{
   position:sticky;
-  overflow:visible;
+  overflow:hidden;
   top:0px;
-  z-index: 2;
+  z-index: 3;
 }
 #topbar{
   width:auto;
   height:75px;
   background-color: hsl(240, 100%, 25%);
-  margin-top:-10px;
+  margin-bottom:0px;
+  margin-top:0px;
+  padding-bottom:0px;
 }
 #tb-logo{
   font-size:40px;
@@ -37,6 +42,7 @@ body{
   color:white;
   margin-top:auto;
   margin-left:5px;
+  margin-bottom:0px;
 }
 .tb-buttons{
   background-color:hsl(240, 100%, 25%);
@@ -92,6 +98,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment:fixed;
 }
 .slidebutton{
   height:50px;
@@ -181,6 +188,7 @@ body{
   font-size:45px;
   color:white;
   text-align:center;
+  margin-top: 0;
 }
 /*#undercon-button{
   position:relative;
