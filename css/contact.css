@@ -1,9 +1,13 @@
+/* NavBar
+--------------------------------------------------------------------------------------------------------------- */
 body{
   background-color:white;
-  font-family: 'Poiret One', cursive;
   margin-left:0px;
   margin-right:0px;
-  margin-bottom:0px;
+  font-size: 19px;
+  font-weight: 300;
+  overflow-x: hidden;
+  font-family: 'Poiret One', cursive;   
 }
 #topbar{
   width:auto;
@@ -29,11 +33,11 @@ body{
   border:0px;
   color:white;
   font-size:20px;
-  font-family: 'Poiret One', cursive;
   float:right;
   display:inline;
   height:75px;
   width:250px;
+  font-family: 'Poiret One', cursive
 }
 .tb-buttons:hover{
   background-color:hsl(240, 100%, 11%);
@@ -51,66 +55,49 @@ body{
   text-align:center;
   background-color:hsl(240, 100%, 25%);
 }
-
-.tm-bg-white2 {
-    padding: 20px;
-    background-color: white;
-    opacity: 0.8;
-    width: 100%;
-    margin: 0px;
+/* Page Intro / JumboTron
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro{
+  padding:150px 0;
+  background-image:url("../img/hero4.jpg");
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-
-h2 {
-  padding-bottom: 20px;
-  font-weight: bold;
+#pageintro article *{
+  text-transform:uppercase;
 }
-
-h3 {
-  color: green;
-  padding-bottom: 10px;
+#pageintro article .heading{
+    margin:0 0 50px 0;
+    padding:0;
+    line-height:1;
+    font-size:64px;
+  }
+#pageintro article p:first-of-type{
+   margin-bottom:20px;
+  font-size:26px;
 }
-
-.MainTopic {
-  margin: 5px;
-  padding: 40px;
-  background-color: #ffffffc4;
-  max-width: 340px;
-  width: 100%;
-  margin: 20px;
+/* Services
+--------------------------------------------------------------------------------------------------------------- */
+#services .table-cell{
+  margin-top:-1px;
+  padding:3%; 
+  border:1px solid;
+  border-top:none;
 }
-
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: auto;
-  margin-left: auto;
+#services article {
+  text-align:center;
 }
-#footer{
-  width:auto;
-  height:40px;
-  background-color:hsl(240, 100%, 25%);
+#services article *{
+  margin:0; 
+  line-height:1;}
+#services article .heading{
+ margin-bottom:10px;
+ font-size:1.2rem;
 }
-.footert{
-  color:white;
-}
-#disc{
-  position:relative;
-  float:left;
-  padding-left:20px;
-  padding-top:10px;
-}
-#priv{
-  position:relative;
-  float:left;
-  padding-left:20px;
-  padding-top:10px;
-}
-#tm{
-  position:relative;
-  float:right;
-  margin-right:10px;
-  margin-bottom:0px;
-  margin-top:10px;
+#services article p{
+  margin-bottom:10px; 
+  line-height:1.4;
 }
