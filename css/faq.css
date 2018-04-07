@@ -1,0 +1,71 @@
+body{
+  background-color:white;
+  margin-left:0px;
+  margin-right:0px;
+  font-size: 19px;
+  font-weight: 300;
+  overflow-x: hidden;
+  font-family: 'Poiret One', cursive;   
+}
+#topbar{
+  width:auto;
+  height:75px;
+  background-color: hsl(240, 100%, 25%);
+  margin-top:-10px;
+}
+#tb-logo{
+  font-size:40px;
+  margin-top:inherit;
+  margin-bottom:inherit;
+  color:white;
+  margin-left:10px;
+}
+#tb-slogan{
+  font-size:20px;
+  color:white;
+  margin-top:auto;
+  margin-left:5px;
+  margin-bottom:6px;
+}
+.tb-buttons{
+  background-color:hsl(240, 100%, 25%);
+  border:0px;
+  color:white;
+  font-size:20px;
+  float:right;
+  display:inline;
+  height:75px;
+  width:250px;
+  font-family: 'Poiret One', cursive
+}
+.tb-buttons:hover{
+  background-color:hsl(240, 100%, 11%);
+}
+#menu{
+  position:relative;
+  float:right;
+  margin:0px;
+}
+.dr-buttons{
+  background-color:hsl(240, 100%, 25%);
+  border:0px;
+  color:white;
+  font-size:20px;
+  display:block;
+  height:50px;
+  width:250px;
+  font-family:'Poiret One', cursive;
+  margin:0px;
+}
+.show{
+  display:block;
+}
+.title1{
+
+}
+.title2{
+
+}
+.para1{
+
+}
