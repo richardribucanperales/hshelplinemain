@@ -25,7 +25,6 @@ body{
   color:white;
   margin-top:auto;
   margin-left:5px;
-  margin-bottom:6px;
 }
 .tb-buttons{
   background-color:hsl(240, 100%, 25%);
@@ -41,31 +40,12 @@ body{
 .tb-buttons:hover{
   background-color:hsl(240, 100%, 11%);
 }
-#menu{
-  position:relative;
-  float:right;
-  margin:0px;
-}
-.dr-buttons{
-  background-color:hsl(240, 100%, 25%);
-  border:0px;
-  color:white;
-  font-size:20px;
-  display:block;
-  height:50px;
-  width:250px;
-  font-family:'Poiret One', cursive;
-  margin:0px;
-}
-.show{
-  display:block;
-}
 .title1{
-
+  font-size:50px;
 }
 .title2{
-
+  font-size:30px;
 }
 .para1{
-
+  font-size:15px;
 }
