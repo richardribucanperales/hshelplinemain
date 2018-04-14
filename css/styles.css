@@ -74,83 +74,16 @@ body{
 .body-text{
   font-size:40px;
 }
-#stories{
-  background-color:hsl(240, 100%, 25%);
-  width:auto;
-  height:auto;
+#asset{
 }
-#story-title{
-  color:white;
-  font-size:50px;
-  margin-bottom:inherit;
-  margin-left:10px;
-}
-#story-text{
-  color:white;
-  font-size:25px;
-  margin-bottom:5px;
-  margin-left:5px;
-}
-#slideshow{
-  height:800px;
-  background-image:url("../img/slide2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-attachment:fixed;
-}
-.slidebutton{
-  height:50px;
-  width:25px;
-  background-color:hsl(240, 100%, 25%);
-  color:white;
-  border:0px;
-}
-.slidebutton:hover{
-  background-color:hsl(240, 100%, 11%);
-}
-#slideleft{
-  position:absolute;
-  top:50%;
-  left:0%;
-  transform:translate(0%, 50%);
-  -ms-transform:translate(-0%, -50%);
-}
-#slideright{
-  position:absolute;
-  top:50%;
-  right:0%;
-  transform:translate(0%, 50%);
-  -ms-transform:translate(0%, -50%);
-}
-.storyslide{
-  height:600px;
-  width:1000px;
-  background-color:hsl(240, 100%, 25%);
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%, -50%);
-  -ms-transform:translate(-50%, -50%);
-}
-.storyt{
-  color:white;
-  font-size:40px;
-  text-align:center;
-}
-.storyp{
-  color:white;
-  font-size:30px;
-  padding-right:20px;
-  padding-left:20px;
-}
-.storypic{
-  height:250px;
-  width:250px;
-  float:left;
-  padding-left:20px;
-  padding-right:20px;
+.boxes{
+  height:400px;
+  width:200px;
+  border:1px solid black;
+  position:relative;
+  padding:16px;
+  display:inline-block;
+  vertical-align:top;
 }
 #footer{
   width:auto;
