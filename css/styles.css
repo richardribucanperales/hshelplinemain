@@ -74,16 +74,45 @@ body{
 .body-text{
   font-size:40px;
 }
-#asset{
+#row{
+  background-image:url("../img/bottom1.jpg");
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .boxes{
+  float:left;
+  width:33.09%;
   height:400px;
-  width:200px;
-  border:1px solid black;
-  position:relative;
-  padding:16px;
-  display:inline-block;
-  vertical-align:top;
+  border:2px solid white;
+  background-color:hsla(0, 0%, 0%, 0);
+  text-align:center;
+}
+#row:after {
+  content: "";
+  display:table;
+  clear:both;
+}
+.boxtitle{
+  color:white;
+  background-color:hsl(240, 100%, 25%);
+}
+.boxpara{
+  color:white;
+  background-color:hsl(240, 100%, 25%);
+}
+.boxbutton{
+  height:50px;
+  width:100px;
+  background-color:white;
+  border:0px;
+  font-family: 'Poiret One', cursive;
+  color:black;
+  font-weight:900;
+}
+.boxbutton:hover{
+  background-color:hsl(0, 0%, 50%);
 }
 #footer{
   width:auto;
