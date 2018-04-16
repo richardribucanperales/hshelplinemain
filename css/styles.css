@@ -57,6 +57,7 @@ body{
 }
 .tb-buttons:hover{
   background-color:hsl(240, 100%, 11%);
+  cursor:pointer;
 }
 #hero-logo{
   color:white;
@@ -82,10 +83,11 @@ body{
   background-size: cover;
 }
 .boxes{
+  display:inline-block;
   float:left;
-  width:33.09%;
+  width:33.33%;
   height:400px;
-  border:2px solid white;
+  border:0px solid white;
   background-color:hsla(0, 0%, 0%, 0);
   text-align:center;
 }
@@ -113,6 +115,7 @@ body{
 }
 .boxbutton:hover{
   background-color:hsl(0, 0%, 50%);
+  cursor:pointer;
 }
 #footer{
   width:auto;
