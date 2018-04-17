@@ -75,6 +75,11 @@ body{
 .body-text{
   font-size:40px;
 }
+.body-text.redwarning{
+  background-color:red;
+  color:white;
+  margin-top:0px;
+}
 #row{
   background-image:url("../img/bottom1.jpg");
   background-attachment:fixed;
@@ -99,10 +104,12 @@ body{
 .boxtitle{
   color:white;
   background-color:hsl(240, 100%, 25%);
+  margin-bottom:0px;
 }
 .boxpara{
   color:white;
   background-color:hsl(240, 100%, 25%);
+  margin-top:0px;
 }
 .boxbutton{
   height:50px;
@@ -116,6 +123,24 @@ body{
 .boxbutton:hover{
   background-color:hsl(0, 0%, 50%);
   cursor:pointer;
+}
+#about{
+  width:100%;
+  height:400px;
+  background-color:hsl(240, 100%, 25%);
+}
+#aboutimage{
+  height:300px;
+  width:600px;
+  position:relative;
+  float:left;
+  display:inline;
+}
+#aboutpara{
+  position:relative;
+}
+#aboutbutton{
+  position:relative;
 }
 #footer{
   width:auto;
