@@ -135,12 +135,16 @@ body{
   position:relative;
   float:left;
   display:inline;
+  top:12.5%;
+  margin-left:30px;
 }
 #aboutpara{
   position:relative;
+  top:12.5%;
 }
 #aboutbutton{
   position:relative;
+  top:13%;
 }
 #footer{
   width:auto;
