@@ -13,7 +13,7 @@ body{
 #topbar{
   width:auto;
   height:75px;
-  background-color: hsl(240, 100%, 25%);
+  background-color: hsla(197, 71%, 57%, 1);
   margin-top:-10px;
 }
 #tb-logo{
@@ -30,7 +30,7 @@ body{
   margin-left:5px;
 }
 .tb-buttons{
-  background-color:hsl(240, 100%, 25%);
+  background-color:hsla(197, 71%, 57%, 1);
   border:0px;
   color:white;
   font-size:20px;
@@ -41,20 +41,21 @@ body{
   font-family: 'Poiret One', cursive
 }
 .tb-buttons:hover{
-  background-color:hsl(240, 100%, 11%);
+  background-color:hsla(197, 71%, 45%, 1);
+  cursor:pointer;
 }
 #hero-logo{
   color:white;
   font-size:100px;
   text-align:center;
-  background-color:hsl(240, 100%, 25%);
+  background-color:hsla(197, 71%, 57%, 1);
   margin-bottom:inherit;
 }
 #hero-text{
   color:white;
   font-size:25px;
   text-align:center;
-  background-color:hsl(240, 100%, 25%);
+  background-color:hsla(197, 71%, 57%, 1);
 }
 /* Page Intro / JumboTron
 --------------------------------------------------------------------------------------------------------------- */
@@ -75,6 +76,7 @@ body{
     padding:0;
     line-height:1;
     font-size:64px;
+    background-color:hsla(197, 71%, 57%, 1);
   }
 #pageintro article p:first-of-type{
    margin-bottom:20px;
@@ -105,7 +107,7 @@ body{
 #footer{
  width:100%;
  height:40px;
- background-color:hsl(240, 100%, 25%);
+ background-color:hsla(197, 71%, 57%, 1);
  margin-bottom:0px;
 }
 .footert{

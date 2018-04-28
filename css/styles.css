@@ -36,6 +36,7 @@ body{
   margin-bottom:inherit;
   color:white;
   margin-left:10px;
+  background-color:hsla(197, 71%, 57%, 1);
 }
 #tb-slogan{
   font-size:20px;
@@ -43,6 +44,7 @@ body{
   margin-top:auto;
   margin-left:5px;
   margin-bottom:0px;
+  background-color:hsla(197, 71%, 57%, 1);
 }
 .tb-buttons{
   background-color:hsla(197, 71%, 57%, 1);
@@ -56,24 +58,24 @@ body{
   width:250px;
 }
 .tb-buttons:hover{
-  background-color:hsl(240, 100%, 11%);
+  background-color:hsla(197, 71%, 45%, 1);
   cursor:pointer;
 }
 #hero-logo{
   color:white;
   font-size:100px;
   text-align:center;
-  background-color:hhsla(197, 71%, 57%, 1);
   margin-bottom:inherit;
 }
 #hero-text{
   color:white;
   font-size:25px;
   text-align:center;
-  background-colorhsl(55,71%,57%));
 }
 .body-text{
   font-size:40px;
+  margin-left:10%;
+  margin-right:10%;
 }
 .body-text.redwarning{
   background-color:;
