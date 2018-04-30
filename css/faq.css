@@ -3,6 +3,7 @@ body{
   margin-left:0px;
   margin-right:0px;
   margin-bottom:0px;
+  margin-top: 0px;
   font-size: 19px;
   font-weight: 300;
   overflow-x: hidden;
@@ -10,42 +11,40 @@ body{
 }
 #topbar{
   width:auto;
-  height:75px;
-  background-color: hsla(197, 71%, 57%, 1);
-  margin-top:-10px;
-}
-.sticky{
-  position:sticky;
-  overflow:hidden;
-  top:0px;
-  z-index: 3;
+  height:100px;
+  background-color:hsla(197, 71%, 57%, 1);
+  margin-bottom:0px;
+  margin-top:0px;
+  padding-bottom:0px;
 }
 #tb-logo{
-  font-size:40px;
+  font-size:50px;
   margin-top:inherit;
   margin-bottom:inherit;
   color:white;
-  margin-left:10px;
+  margin-left:15px;
 }
 #tb-slogan{
-  font-size:20px;
+  font-size:25px;
   color:white;
   margin-top:auto;
   margin-left:5px;
+  margin-bottom:0px;
+  margin-top: 5px
 }
 .tb-buttons{
   background-color:hsla(197, 71%, 57%, 1);
   border:0px;
   color:white;
   font-size:20px;
+  font-family: 'Poiret One', cursive;
   float:right;
   display:inline;
-  height:75px;
+  height:100px;
   width:250px;
-  font-family: 'Poiret One', cursive
 }
 .tb-buttons:hover{
-  background-color:hsla(197, 71%, 45%, 1);
+  background-color:hsl(240, 100%, 11%);
   cursor:pointer;
 }
 .title1{
