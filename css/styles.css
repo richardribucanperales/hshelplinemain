@@ -54,7 +54,7 @@ body{
   float:right;
   display:inline;
   height:100px;
-  width:250px;
+  width:200px;
 }
 .tb-buttons:hover{
   background-color:hsl(240, 100%, 11%);

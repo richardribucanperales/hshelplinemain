@@ -39,7 +39,7 @@ body{
   float:right;
   display:inline;
   height:100px;
-  width:250px;
+  width:200px;
 }
 .tb-buttons:hover{
   background-color:hsl(240, 100%, 11%);
@@ -52,12 +52,6 @@ body{
  background-color:hsla(197, 71%, 57%, 1);
  margin-bottom:inherit;
 }
-#hero-text{
- color:white;
- font-size:25px;
- text-align:center;
- background-color:hsla(197, 71%, 57%, 1);
-}
 #heroimg{
  background-image:url("../img/suicide.jpg");
  background-attachment:fixed;
@@ -68,10 +62,12 @@ body{
  height:414px;
  width:auto;
 }
-#herotitle{
+#hero-text{
 	margin-top:0px;
 	margin-bottom:0px;
+  margin-right: 75%;
 	position:relative;
+  text-align: center;
 	font-size:64px;
   background-color:hsla(197, 71%, 57%, 1);
   width:inherit;

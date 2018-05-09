@@ -50,16 +50,26 @@ body{
   cursor:pointer;
 }
 #hero-logo{
-  color:white;
-  font-size:100px;
-  text-align:center;
-  background-color:hsla(197, 71%, 57%, 1);
-  margin-bottom:inherit;
+ color:white;
+ font-size:100px;
+ text-align:center;
+ background-color:hsla(197, 71%, 57%, 1);
+ margin-bottom:inherit;
+}
+#heroimg{
+ background-image:url("../img/suicide.jpg");
+ background-attachment:fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ height:414px;
+ width:auto;
 }
 #hero-text{
   margin-top:0px;
   margin-bottom:0px;
-  margin-right: 65%;
+  margin-right: 45%;
   position:relative;
   text-align: center;
   font-size:64px;
@@ -88,26 +98,29 @@ body{
     background-color:hsla(197, 71%, 57%, 1);
   }
 #pageintro article p:first-of-type{
-   margin-bottom:20px;
+  margin-bottom:20px;
   font-size:26px;
 }
 /* Services
 --------------------------------------------------------------------------------------------------------------- */
 #services .table-cell{
   margin-top:-1px;
-  padding:3%; 
+  padding:2%; 
   border:0px solid;
   border-top:none;
 }
 #services article {
-  text-align:center;
+  text-align:left;
+  width: 75%;
+  font-size: 1.4rem;
 }
 #services article *{
   margin:0; 
-  line-height:1;}
-#services article .heading{
+  line-height:1;
+}
+#services article #heading{
  margin-bottom:10px;
- font-size:1.2rem;
+ font-size:2rem;
 }
 #services article p{
   margin-bottom:10px; 
@@ -134,4 +147,3 @@ body{
  margin-right:10px;
  margin-bottom:0px;
  margin-top:10px;
-}
