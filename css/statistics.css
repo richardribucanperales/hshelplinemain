@@ -53,7 +53,7 @@ body{
  margin-bottom:inherit;
 }
 #heroimg{
- background-image:url("../img/suicide.jpg");
+ background-image:url("/img/suicide.jpg");
  background-attachment:fixed;
  background-position: center;
  background-repeat: no-repeat;

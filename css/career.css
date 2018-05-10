@@ -80,7 +80,7 @@ body{
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{
   padding:150px 0;
-  background-image:url("../img/hero4.jpg");
+  background-image:url("../img/hero7.jpg");
   background-attachment:fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,8 +110,7 @@ body{
   border-top:none;
 }
 #services article {
-  text-align:left;
-  width: 75%;
+  text-align:center;
   font-size: 1.4rem;
 }
 #services article *{
